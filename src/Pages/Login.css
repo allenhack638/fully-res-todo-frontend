@@ -1,0 +1,9 @@
+.inputs>a{
+    margin: 0.5rem 0px;
+    text-align: right;
+    color: #fff;
+}
+
+.inputs>a:hover{
+    color: black;
+}

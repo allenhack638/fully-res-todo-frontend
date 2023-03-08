@@ -1,0 +1,116 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    max-width: 375px;
+    min-width: 375px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(68, 151, 223);
+    border-radius: 10px;
+    margin-top: 7rem;
+    min-height: 185px;
+}
+
+.heading {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding:5px;
+    margin-bottom: -5px;
+}
+
+.todo-form>input {
+    font-size: 1rem;
+    padding: 5px;
+    margin-right: 0.2rem;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.todo-form>button {
+    width: 2.7rem;
+    background-color: #d3ffd4;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0.3125rem;
+    padding: 7px;
+    margin: 0 2px;
+    height: 2.5rem;
+}
+
+
+.todo-form>button:hover {
+    background-color: rgb(90, 248, 90);
+}
+
+button.delete-all:hover {
+    background-color: rgb(240, 58, 58);
+    color: #fff;
+}
+
+button.delete-all {
+    width: auto;
+    background-color: rgb(246, 214, 214);
+}
+
+.todo-list {
+    margin: 1rem 1rem;
+    padding: 5px 2rem;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.todo-list>div {
+    padding: 2px;
+    margin: 2px;
+}
+
+.task-empty {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-bottom: -10px;
+    margin-top: 16px;
+}
+
+.todo-list>div:hover {
+    color: rgb(247, 251, 21);
+}
+
+.how-to-use {
+    text-align: center;
+    margin-top: 5px;
+    font-style: italic;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+button#log-out {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background-color: aqua;
+}
+button#log-out:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.outer-div{
+    margin-bottom: -10px;
+    padding: 5px;
+}

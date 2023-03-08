@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+}
+.wel-con {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto auto;
+    width: 30vw;
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-radius: 100px;
+    background-color: rgb(68, 151, 223);
+    padding: 20px 50px;
+}
+.wel-con>h1{
+    margin: 0;
+}
+
+.wel-det {
+    display: flex;
+    margin: 0 auto;
+}
+
+.reg,
+.log {
+    text-decoration: none;
+    margin: 1rem;
+    border: 0.0625rem solid black;
+    border-radius: 0.3125rem;
+    padding: 0.6rem;
+    background-color: aqua;
+    font-weight: bold;
+}
+
+.reg:hover,
+.log:hover {
+    background-color: aliceblue;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}

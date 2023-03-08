@@ -1,0 +1,77 @@
+.main-req {
+    display: flex;
+    flex-direction: column;
+    width: 32vw;
+    max-width: 250px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(68, 151, 223);
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reg-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-req>h1 {
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 12px;
+    padding: 2px;
+}
+
+.inputs>label {
+    font-size: 1rem;
+    margin: 0 1px;
+    font-weight: bold;
+    padding: 2px
+}
+
+.inputs>input {
+    padding: 5px;
+    margin: 2px 1px;
+    border-radius: 5px;
+}
+
+.reg-form>button {
+    margin: 0 auto;
+    border: 0.0625rem solid black;
+    border-radius: 0.3125rem;
+    padding: 0.6rem;
+    background-color: aqua;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reg-form>button:hover{
+    background-color: aliceblue;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+.reg-form>a{
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+}
+.error-reg{
+    text-align: center;
+    background-color: rgb(243, 182, 182);
+    margin-bottom: 0;
+    margin-top: 8px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.reg-form>a:hover{
+   color: black;
+}
